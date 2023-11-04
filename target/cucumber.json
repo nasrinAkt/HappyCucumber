@@ -1,0 +1,70 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Verify user can sign up succesfully.",
+        "description": "",
+        "id": "this-is-a-feature-for-verify-sign-up-functionality.;verify-user-can-sign-up-succesfully.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3318706200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "open demoblaze application",
+            "match": {
+              "location": "step.open_demoblaze_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 84568700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click sign up",
+            "match": {
+              "location": "step.click_sign_up()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 274247600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Enter username",
+            "match": {
+              "location": "step.enter_username()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5407020600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Enter password",
+            "match": {
+              "location": "step.enter_password()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "This is a feature for verify sign up functionality.",
+    "description": "",
+    "id": "this-is-a-feature-for-verify-sign-up-functionality.",
+    "keyword": "Feature",
+    "uri": "sign.feature"
+  }
+]
